@@ -1,5 +1,5 @@
-# PI - Projeto Integrado
 # Mural do CEFET-MG
+### Projeto Integrado - PI
 
 ## Descrição Geral do Projeto
 Nosso projeto consiste em um Mural do CEFET-MG, onde serão exibidos eventos e atividades extracurriculares, para auxiliar na organização e aumentar a participação dos alunos nos projetos extraoficiais sediados nos campi de Belo Horizonte (C1 e C2).
