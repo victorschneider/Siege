@@ -5,12 +5,12 @@
 Nosso projeto consiste em um Mural do CEFET-MG, onde serão exibidos eventos e atividades extracurriculares, para auxiliar na organização e aumentar a participação dos alunos nos projetos extraoficiais sediados nos campi de Belo Horizonte (C1 e C2).
 
 ## Integrantes - INF3A
-* Gabrielle Souza
-* Letícia Araújo
-* Maria Alice Miranda
-* Richard Augusto
-* Thiago Iulli
-* Victor Schneider
+* Gabrielle de Souza Costa
+* Letícia Araújo Ribeiro
+* Maria Alice Miranda de Oliveira
+* Richard Augusto de Sousa Rocha
+* Thiago Iulli Barros
+* Victor Schneider do Vale
 
 ## Orientador
 * Mateus Felipe Tymburibá Ferreira
