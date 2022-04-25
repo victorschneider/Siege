@@ -13,6 +13,6 @@ Nosso projeto consiste em um Mural do CEFET-MG, onde serão exibidos eventos e a
 * Victor Schneider
 
 ## Orientador
-* Matheus Tymburibá
+* Mateus Felipe Tymburibá Ferreira
 
 Hospedagem da documentação: https://github.com/cefetmg-2022-psi-g6/wiki
