@@ -1,4 +1,4 @@
-# Mural do CEFET-MG
+# SIEGE - Sistema Integrado de Eventos e Grupos Estudantis
 ### Projeto Integrado - PI
 
 ## Descrição Geral do Projeto
