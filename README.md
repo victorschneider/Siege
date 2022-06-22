@@ -9,7 +9,7 @@ Nosso projeto consiste em um Mural do CEFET-MG, onde serão exibidos eventos e a
 * Letícia Araújo Ribeiro
 * Maria Alice Miranda de Oliveira
 * Richard Augusto de Sousa Rocha
-* Thiago Iulli Barros
+* Thiago Iulli Barros da Silva
 * Victor Schneider do Vale
 
 ## Orientador
