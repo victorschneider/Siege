@@ -15,4 +15,4 @@ Nosso projeto consiste em um Mural do CEFET-MG, onde serão exibidos eventos e a
 ## Orientador
 * Mateus Felipe Tymburibá Ferreira
 
-Hospedagem da documentação: https://github.com/cefetmg-2022-psi-g6/wiki
+Hospedagem da documentação: https://github.com/cefetmg-2022-psi-g6/wiki/wiki
