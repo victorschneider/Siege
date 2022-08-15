@@ -34,7 +34,6 @@ ADD CONSTRAINT fk_ufollower_target
   userId BIGINT NOT NULL,
   post_bio VARCHAR NULL DEFAULT NULL,
   createdAt TIMESTAMP NOT NULL,
-  updatedAt TIMESTAMP NULL DEFAULT NULL,
   PRIMARY KEY (id),
   CONSTRAINT fk_upost_user
     FOREIGN KEY (userId)
