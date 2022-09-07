@@ -94,6 +94,10 @@ export const MenuButton = styled.button`
   }
 `;
 
+export const Button = styled.div`
+
+`;
+
 const iconCSS = css`
   flex-shrink: 0;
   width: 30px;

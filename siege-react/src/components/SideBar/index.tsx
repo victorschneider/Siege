@@ -22,7 +22,7 @@ const SideBar: React.FC = () => {
       <StickyBox>
         <Body>
           <List
-            title="Talvez você curta"
+            title="Em alta"
             elements={[
               <FollowSuggestion name="Grêmio"/>,
               <FollowSuggestion name="Trincabotz"/>,

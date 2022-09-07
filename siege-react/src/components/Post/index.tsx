@@ -36,7 +36,7 @@ const Post: React.FC = () => {
           </Description>
 
           <ImageContent>
-          <img src={ImgPost} />
+          < img src={ImgPost} />
           </ImageContent>
 
 
@@ -45,6 +45,7 @@ const Post: React.FC = () => {
             <Status>
               <LikeIcon />
             </Status>
+            
             <div>
               #GRÊMIO
             </div>

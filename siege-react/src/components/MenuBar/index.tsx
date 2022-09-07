@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from '../Button';
-import Perfil from "../../imgs/1.png"
+import Perfil from "../../imgs/1.png"; 
+import Input from '../NewPost';
 
 import {
   Container,
@@ -16,6 +17,8 @@ import {
 } from './styles';
 
 const MenuBar: React.FC = () => {
+  const [openM, setOpen] = useState(false);
+
   return (
     <Container>
       <Topside>
@@ -33,13 +36,16 @@ const MenuBar: React.FC = () => {
           <span>Perfil</span>
         </MenuButton>
       </Topside>
+      
+        <Button onClick={()=> setOpen(!openM)}>
+          <span>Evento</span>
+        </Button>
+        <Input open={openM}/>
 
-      <Button>
-        <span>Evento</span>
-      </Button>
+        
 
       <Botside>
-      <Avatar>
+        <Avatar>
           <img src={Perfil} />
         </Avatar>  
         <ProfileData>
@@ -47,6 +53,7 @@ const MenuBar: React.FC = () => {
         </ProfileData>
         <ExitIcon />
       </Botside>
+
     </Container>
   );
 };
