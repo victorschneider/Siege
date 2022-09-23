@@ -29,7 +29,6 @@ export const Texto = styled.div`
   
 `;
 
-
 export const Bottom = styled.div`
   padding: 5px;
   align-items: center;
@@ -48,8 +47,6 @@ export const Bottom = styled.div`
 export const Icon = styled.div`
 
 `;
-
-
 
 const iconCSS = css`
   

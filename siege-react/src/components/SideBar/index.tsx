@@ -1,7 +1,5 @@
 import React from 'react';
 import StickyBox from 'react-sticky-box';
-import List from '../List';
-import FollowSuggestion from '../FollowSuggestion';
 
 import {
   Container,
@@ -21,14 +19,6 @@ const SideBar: React.FC = () => {
 
       <StickyBox>
         <Body>
-          <List
-            title="Em alta"
-            elements={[
-              <FollowSuggestion name="Grêmio"/>,
-              <FollowSuggestion name="Trincabotz"/>,
-              <FollowSuggestion name="Fractal"/>,
-            ]}
-          />
         </Body>
       </StickyBox>
     </Container>

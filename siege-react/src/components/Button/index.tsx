@@ -1,3 +1,5 @@
+//estilização de todos os botões
+
 import styled from 'styled-components';
 
 interface Props {

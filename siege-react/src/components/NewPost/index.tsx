@@ -45,7 +45,7 @@ const Input = ({open} : any) =>  {
             <Body>
                 <Content >
                     <Texto>
-                        <textarea rows={2} placeholder="Criar um evento" value={input} onChange={(e)=>setInput(e.target.value)}/>
+                        <textarea rows={1} placeholder="Criar um evento" value={input} onChange={(e)=>setInput(e.target.value)}/>
                     </Texto>
                     
                     <Bottom>
