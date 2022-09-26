@@ -2,6 +2,17 @@ import React from 'react';
 import Perfil from "../../imgs/1.png"
 import ImgPost from "../../imgs/post.png"
 
+import { getFirestore, collection, getDocs } from 'firebase/firestore';
+import {db} from "../../firebase";
+
+const getPosts = async () => {
+   const poststCol = collection(db, 'posts');
+   const postSnapshot = await getDocs(poststCol);
+   const postList = postSnapshot.docs.map(doc => doc.data());
+   //console.log(postList[0].text); exemplo de um texto no db
+   return postList;
+}
+
 import {
   Container,
   Body,
@@ -22,7 +33,7 @@ const Post: React.FC = () => {
       <Body>
         <Avatar>
           <img src={Perfil} />
-        </Avatar>  
+        </Avatar>
         <Content>
           <Header>
             <strong>Administrador</strong>
@@ -30,9 +41,7 @@ const Post: React.FC = () => {
             <time>14 de ago</time>
           </Header>
 
-          <Description> 
-            Veja, um novo evento! Esse é um evento de teste!! 
-            Compareça ao evento de teste no dia 00/00/2022 às 15h.
+          <Description>
           </Description>
 
           <ImageContent>
@@ -41,11 +50,11 @@ const Post: React.FC = () => {
 
 
           <Icons>
-  
+
             <Status>
               <LikeIcon />
             </Status>
-            
+
             <div>
               #GRÊMIO
             </div>
