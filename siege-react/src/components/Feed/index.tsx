@@ -4,7 +4,7 @@ import Post from '../Post';
 import { Container, Posts } from './styles';
 
 const Feed: React.FC = () => {
-
+   let i = 0;
   return (
     <Container>
       <Posts>

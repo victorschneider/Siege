@@ -5,13 +5,19 @@ import ImgPost from "../../imgs/post.png"
 import { getFirestore, collection, getDocs } from 'firebase/firestore';
 import {db} from "../../firebase";
 
-const getPosts = async () => {
+const getAllPosts = async (indice: number) => {
    const poststCol = collection(db, 'posts');
    const postSnapshot = await getDocs(poststCol);
    const postList = postSnapshot.docs.map(doc => doc.data());
-   //console.log(postList[0].text); exemplo de um texto no db
-   return postList;
+   //console.log(postList[indice].text); DEBUG DA API
+   return postList[indice];
 }
+
+getAllPosts(0).then((value) => {
+   console.log(value);
+})
+
+//console.log(getAllPosts(numbers[0]));
 
 import {
   Container,
