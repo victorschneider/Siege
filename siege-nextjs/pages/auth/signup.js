@@ -21,7 +21,7 @@ export default function Signup() {
 
   const handleClick = e => {
       e.preventDefault()
-      router.push('/auth/signin')
+      router.push('/auth/signin', '/')
   }
 
   function handleSignOut(e){

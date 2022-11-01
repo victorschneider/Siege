@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Feed from 'components/Feed.js'
-import MenuBarGuest from 'components/MenuBar-guest'
+import MenuBar from 'components/MenuBar'
 import Sidebar from 'components/Sidebar'
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
                 </Head>
                 <main className="flex min-h-screen mx-auto">
                     {/*Componentes da página*/}
-                    <MenuBarGuest/>
+                    <MenuBar/>
                     <Feed/>
                     <Sidebar/>
 

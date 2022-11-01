@@ -1,4 +1,4 @@
-import { Home } from '../index'
+import { Home } from '../home'
 import cx from 'classnames';
 import styles from '../../styles/Home.module.css'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
@@ -28,7 +28,7 @@ export default function Signin() {
         }
 
         if(user){
-            return console.log(user);
+            router.push('/home-adm', '/home')
         }
 
         const handleClick = (e) => {
@@ -48,11 +48,6 @@ export default function Signin() {
                     <div className="form-floating">
                         <input type="password" className="form-control" id="floatingPassword" placeholder="Senha" onChange={e => setPassword(e.target.value)}/>
                         <label htmlFor="floatingPassword">Senha</label>
-                    </div>
-                    <div className={cx(styles.checkbox,"mb-3")}>
-                        <label>
-                            <input type="checkbox" value="remember-me"/> Lembrar-se de mim
-                        </label>
                     </div>
                     <button onClick={handleSignIn} className={cx(styles["bg-pink"],"w-100 btn btn-lg btn-primary bg-pink")} type="submit">Entrar</button>
                     <button onClick={handleClick} className={cx(styles["bg-pink"],"w-100 btn btn-lg btn-primary mt-2 bg-pink")} type="submit"   >Não sou administrador</button>
