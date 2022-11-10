@@ -1,6 +1,6 @@
 import { Home } from '../home'
 import cx from 'classnames';
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.module.css';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import React, { useEffect, useState } from "react";
 import { auth } from '../../firebase';
@@ -50,7 +50,7 @@ export default function Signin() {
                         <label htmlFor="floatingPassword">Senha</label>
                     </div>
                     <button onClick={handleSignIn} className={cx(styles["bg-pink"],"w-100 btn btn-lg btn-primary bg-pink")} type="submit">Entrar</button>
-                    <button onClick={handleClick} className={cx(styles["bg-pink"],"w-100 btn btn-lg btn-primary mt-2 bg-pink")} type="submit"   >Não sou administrador</button>
+                    <button onClick={handleClick} className={cx(styles["bg-pink"],"w-100 btn btn-lg btn-primary mt-2 bg-pink")} type="submit">Não sou administrador</button>
                 </form>
             </main>
         </>

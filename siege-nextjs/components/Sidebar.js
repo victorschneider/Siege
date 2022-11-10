@@ -1,4 +1,5 @@
 import { SearchIcon} from '@heroicons/react/outline'
+import {Feed} from "./Feed";
 
 export default function Sidebar() {
   return (
