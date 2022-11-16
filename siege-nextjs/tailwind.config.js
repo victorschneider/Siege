@@ -7,7 +7,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+          pink:{
+            150: '#a85d7b',
+          }
+      },
+    },
   },
 
  /*pluggin para estilizar o textarea*/
